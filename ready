@@ -1,0 +1,5 @@
+gedit simulate &
+gedit create_cache.c &
+gedit Cache.h &
+gedit sim.c &
+

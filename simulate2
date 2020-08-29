@@ -1,0 +1,20 @@
+gcc -o sim.out sim.c create_cache.c -lm
+cache_size=( 2048 4096 8192 16384 )
+cache_line_size=( 8 16 32 64 128 )
+cache_assoc=( 2 4 8 16 )
+off=0
+x=1
+#echo -e "SIMULATION OUT\n" |cat >Simout 
+for(( i=0; i<1; i++ ))
+do 
+	for(( j=0; j<1; j++ ))
+	do
+		for(( k=0; k<4; k++ ))
+		do
+			#echo "${cache_size[$i]} ${cache_line_size[$j]} ${cache_assoc[$k]} simulating"
+			#echo -e "\n\n 			${cache_size[$i]} 	${cache_line_size[$j]} 	${cache_assoc[$k]}\n\n\n"|cat>>Simout;
+			./sim.out ${cache_size[$i]} ${cache_line_size[$j]} ${cache_assoc[$k]} "IJPEG.DAT" 
+			
+		done
+	done
+done

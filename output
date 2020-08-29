@@ -1,0 +1,27 @@
+./sim.out 8192 32 8 "IJPEG.DAT"
+
+Cache creation SUCCESSFUL.
+Number of misses:: 539
+Number of hits:: 7416
+
+Number of compulsory misses:: 0
+Number of conflict misses:: 539
+
+Number of instructions:: 7955
+
+Number of ways opened on average:: 1.180390
+Number of times
+0 ways opened:: 417
+1 way opened:: 6405
+2 ways opened:: 814
+3 ways opened:: 114
+4 ways opened:: 80
+==========================================================================
+
+Cache creation SUCCESSFUL.
+Prediction hit :: 7234.000000
+prediction miss (cache hit):: 182
+
+Number of misses::  539
+Number of hits::   7416 
+Prediction hit rate::  0.909365
