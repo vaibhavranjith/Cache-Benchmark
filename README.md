@@ -64,3 +64,7 @@ Clearly with the advancment of software the standards for the benchmarks are cha
 $ make
 $ ./sim.out ${cache_size[$i]} ${cache_line_size[$j]} ${cache_assoc[$k]} ${File Name}
 ```
+
+## Where to see the results.
+
+I have created the data output into CSV files and drawn the graphs of these data and added it the folder ./Statistics/Graphs. Please have a look :)
