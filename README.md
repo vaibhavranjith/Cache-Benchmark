@@ -67,4 +67,4 @@ $ ./sim.out ${cache_size[$i]} ${cache_line_size[$j]} ${cache_assoc[$k]} ${File N
 
 ## Where to see the results.
 
-I have created the data output into CSV files and drawn the graphs of these data and added it the folder ./Statistics/Graphs. Please have a look :)
+If you just want to see the results of the simulation and don't wanna go through the pain of downloading and running this program, I have created the data output into CSV files and drawn the graphs of these data and added it the folder ./Statistics/Graphs. Please have a look :)
