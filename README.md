@@ -56,7 +56,7 @@ Number of instructions:: 7955
 ##########################################################################
 ```
 
-## "I have another benchmark file I want to simulate on other configuration of the cache"
+## "I have another benchmark file I want to simulate on other configurations of the cache"
 
 Clearly with the advancment of software the standards for the benchmarks are changing. If you have anothet file to simulate on different cache configuration (size, Line size, word size). This is the way to do it. First navigate to this directory and enter the following commands.
 
